@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage x:Class="GadoAppMaui.OcorrenciaPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GadoAppMaui">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <Label Text="Você não tem nenhuma ocorrência registrada hoje." />
+            <Button Style="{StaticResource PrimaryAction}"
+                    Text="Nova Ocorrencia"
+                    Clicked="OnAddOcorrencia"
+                    HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
